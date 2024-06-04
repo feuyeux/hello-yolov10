@@ -1,0 +1,5 @@
+.DS_Store
+*.bkp
+.idea
+__pycache__
+yolov10_env

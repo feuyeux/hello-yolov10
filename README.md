@@ -16,8 +16,8 @@
 ```sh
 git clone https://github.com/THU-MIG/yolov10
 cd yolov10
-virtualenv yolov10 --python=python3.9
-source yolov10/bin/activate
+virtualenv yolov10_env --python=python3.9
+source yolov10_env/bin/activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 pip install -e .
